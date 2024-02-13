@@ -1,0 +1,30 @@
+{
+  "id": "jodawordclock",
+  "name": "Swedish Word Clock",
+  "shortName": "Swedish Word Clock",
+  "version": "0.02",
+  "description": "A clock with swedish 5 minute intervall text",
+  "icon": "jodawordclock.png",
+  "tags": "clock",
+  "type": "clock",
+  "screenshots": [
+    {
+      "url": "screenshot.png"
+    }
+  ],
+  "supports": [
+    "BANGLEJS2"
+  ],
+  "readme": "README.md",
+  "storage": [
+    {
+      "name": "jodawordclock.app.js",
+      "url": "app.js"
+    },
+    {
+      "name": "jodawordclock.img",
+      "url": "app-icon.js",
+      "evaluate": true
+    }
+  ]
+}
